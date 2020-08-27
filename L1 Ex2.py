@@ -1,0 +1,6 @@
+all_sec = int(input('Введите секунды: '))
+sec = (all_sec % 60)
+all_min = (all_sec // 60)
+min = (all_min % 60)
+hou = (all_min // 60)
+print (f'{hou}:{min}:{sec}')
